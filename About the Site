@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secrets Within Your Closet</title>
+    <meta name="author" content="Ashley Root">
+    <meta name="description" content="describe your page here">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><main class="container"></main>
+    <nav>
+        <ul>
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="Merchandise.html">Merchandise</a></li>
+              <li><a href="Images and videos.html">Images and Video</a></li>
+              <li><a href="About the site.html">About the Site</a></li>
+        </ul>
+  </nav>
+<main class="About the Site">
+    <h1>About The Auther</h1>
+    <p> Hello, my name is Ashley and I am currently a student at Miami University.  I am studying Emerging Technology 
+    in Business and Design at the College of Creative Arts.  I am involved in club field hcokey, MUFD (Miami University 
+    Fashion and Design), and Greek Gathering.  I am from Hudson, Ohio which is near Cleveland.  I have a passion for 
+    all things fashion whether it be on social media or in life. </p>
+
+    <h2>Why Start This Site</h2>
+    <p> I started this site because I want to inform the fashion industry of the negative impact of fast fashion.
+        I decided to create a website that will present brands that are involved in fast fashion, information about fast 
+        fashion, how to prevent it, etc…. What I want to accomplish with this site is to slow the production or even stop 
+        fast fashion.  With more information out in the world, the more the public will be aware of this issue. </p>
+
+</body>
+</html>
