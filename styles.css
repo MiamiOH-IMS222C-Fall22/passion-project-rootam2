@@ -1,1 +1,89 @@
+h1{
+    padding: 10px 10px 10px 10px ; 
+    margin: 10px 10px 10px 10px;
+    border: 2px solid white; 
+    color: black; 
+    background-color: white;
+    font-weight: 100;
+    font-size: medium;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    }
+    
+    body{
+        background-color: lightgreen;
+      }
 
+      p{ 
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: 2px solid white;
+        color: black;
+        background-color: ;
+        font-weight: 100;
+        font-size: medium;
+        font-family: "Libre Baskerville', serif;
+        text-align:'Courier New', Courier, monospace left;
+      }
+
+      li{
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        color: black;
+        background-color: lightgoldenrodyellow;
+        font-weight: 100;
+        font-size: medium;
+        font-family: "Libre Baskerville', serif;
+        text-align:'Courier New', Courier, monospace left;
+      
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 1em auto 1em auto;
+        background-color: white;
+        border: 2px blue;
+        }
+        
+        h2 {
+            background-color: lightblue;
+            font-family: 'Montserrat', sans-serif;
+          }  
+          img {
+            width: 50%;
+            height: auto;
+            }
+            nav ul {
+                display: flex;
+                flex-direction: row;
+                padding: 0px;
+              }
+              
+              nav ul li {
+                flex:1;
+                list-style-type: none;
+              }
+              
+              nav ul li a {
+                display: block;
+                padding: 0.75em;
+                margin: 0.25em; 
+                color: black;  
+                text-align: center;
+                text-decoration: none;  
+                border-radius: 10px;
+              }
+              
+              nav ul li a:hover {
+                background-color: rgba(238, 124, 232, 0.788);
+                box-shadow: inset 3px 3px 10px #300;  
+              }
+              @media screen and (max-width: 760px) {
+                nav ul {
+                    flex-direction: column;
+                    padding: 0 20px;
+                    }
+                nav ul li {
+                  margin:10px 0;
+                  }
+                }
