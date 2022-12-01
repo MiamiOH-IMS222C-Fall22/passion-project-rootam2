@@ -19,10 +19,9 @@ h1{
         margin: 10px 10px 10px 10px;
         border: 2px solid white;
         color: black;
-        background-color: ;
         font-weight: 100;
         font-size: medium;
-        font-family: "Libre Baskerville', serif;
+        font-family: 'Libre Baskerville', serif;
         text-align:'Courier New', Courier, monospace left;
       }
 
@@ -33,16 +32,15 @@ h1{
         background-color: lightgoldenrodyellow;
         font-weight: 100;
         font-size: medium;
-        font-family: "Libre Baskerville', serif;
-        text-align:'Courier New', Courier, monospace left;
-      
+        font-family: 'Libre Baskerville', serif;
+        text-align:'Courier New', Courier, monospace left; 
       }
 
       .container {
         max-width: 960px;
         margin: 1em auto 1em auto;
         background-color: white;
-        border: 2px blue;
+        border: 2px;
         }
         
         h2 {
@@ -86,4 +84,41 @@ h1{
                 nav ul li {
                   margin:10px 0;
                   }
-                }
+  }
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgb(255, 242, 182);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

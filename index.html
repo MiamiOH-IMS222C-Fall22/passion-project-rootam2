@@ -13,15 +13,15 @@
 <body><main class="container">
     <nav>
         <ul>
-              <li><a href="Index.html">Home</a></li>
-              <li><a href="Merchandise.html">Merchandise</a></li>
-              <li><a href="Images and videos.html">Images and Video</a></li>
-              <li><a href="Abont the site.html">About the Site</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="merchandise.html">Merchandise</a></li>
+              <li><a href="images-videos.html">Images and Video</a></li>
+              <li><a href="about-site.html">About the Site</a></li>
         </ul>
   </nav>
 <main class="index">
 
-    <h1><strong>What is Fast Fashion</strong></h1>
+    <h2><strong>What is Fast Fashion</strong></h2>
     
     <p>Cheap, trendy clothing that samples ideas from the catwalk 
     or celebrity culture and turns them into garments in high street stores 
@@ -33,6 +33,11 @@
     <p>Donating clothes is the best way to prevent fast fashion.  This trend begain to rise up in late 2018.  
     Still popular today, many people donate their clothes to thrift stores or host clothing swaps.  Here are seven ways 
     to prevent fast fashion:</p>
+    
+    <button class="accordion">How to Prevent Fast Fashion </button>
+<div class="panel">
+
+
 <li>Shop from sustainable and ethical fashion brands</li>
 <li> Buy less often and buy high quality</li>
 <li>Donate or sell gently used clothing</li>
@@ -40,13 +45,33 @@
 <li>Buy or rent secondhand clothes</li>
 <li>Recycle textiles and garments</li>
 <li>Repurpose old clothing</li>
-
+</div>
 
 <h2>Sign up for Emails</h2>
 <p>When you sign up for our emails, you will stay up to date with the lastest news about fashion and the environment.  
     Plus! Recieve extra information about fast fashion.  Not only will you get emials about fashion in the news, 
-    but you will also get promotional emails for our merchandise.    </p>
+    but you will also get promotional emails for our merchandise.</p>
+    
+    <script>
+   var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 
 </html>
