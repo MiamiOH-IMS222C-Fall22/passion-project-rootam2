@@ -23,6 +23,8 @@
       <main class="merchandise"
             <h1><strong>Merchandise</strong></h1>
             
+            <button class="accordion">Sustainable Merchandise </button>
+            <div class="panel">
 
             <h2>Shirts</h2>
 <img src="images/pinkshirt.jpeg" alt="pink shirt" />
@@ -59,6 +61,29 @@
 
             <h2>Bags</h2>
       <img src="images/TotesLede3.jpg.webp" alt="tote bags"
+
+            </div>
+
+      <script>
+            var acc = document.getElementsByClassName("accordion");
+         var i;
+         
+         for (i = 0; i < acc.length; i++) {
+           acc[i].addEventListener("click", function() {
+             /* Toggle between adding and removing the "active" class,
+             to highlight the button that controls the panel */
+             this.classList.toggle("active");
+         
+             /* Toggle between hiding and showing the active panel */
+             var panel = this.nextElementSibling;
+             if (panel.style.display === "block") {
+               panel.style.display = "none";
+             } else {
+               panel.style.display = "block";
+             }
+           });
+         }
+         </script>
 
 
             <a target="_blank" href="https://shop.lululemon.com/p/hats/Fast-and-Free-Womens-Run-Hat-Pony/_/prod9820519?color=0002&sz=ONESIZE" </a>
